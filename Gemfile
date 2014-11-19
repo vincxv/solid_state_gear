@@ -40,3 +40,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 # gem for slim
 gem 'slim-rails', '~> 2.1.0'
+
+gem 'activeadmin', github: 'activeadmin'
