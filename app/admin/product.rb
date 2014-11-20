@@ -2,7 +2,7 @@ ActiveAdmin.register Product do
 
   permit_params :name, :description, :price, :featured, :stock_quantity, :image
   
-  form do |f|
+  form :html => {:multipart => true} do |f|
     f.inputs "Product Details" do
       f.input :name
       f.input :category

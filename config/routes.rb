@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   
   root to: 'main#index'
 
-
+  get 'products/:id' => 'products#show', as: 'products/id' 
 end
