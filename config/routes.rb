@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   
   root to: 'main#index'
 
-  get 'products/:id' => 'products#show', as: 'products/id' 
+  get 'products/:id' => 'products#show', as: 'product'
+  get 'categories' => 'categories#index', as: 'category'
 end
