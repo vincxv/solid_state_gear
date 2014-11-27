@@ -1,4 +1,3 @@
 ul.nav_categories
-
-- @categories.each do |category|
-    li.nav_categories_item == link_to category.name, category_path(category)
+    - @categories.each do |category|
+        li.nav_categories_item == link_to category.name, category_path(category)

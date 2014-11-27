@@ -8,14 +8,16 @@ html
         == javascript_include_tag 'application', 'data-turbolinks-track' => true
         == csrf_meta_tags
         
-    body  
+    body
         
-        header
-    
-            == render 'layouts/header'
-            
-            == render 'layouts/nav_main'
-            
-            == render 'layouts/nav_categories'
+        div.container
         
-        == yield
+            header
+        
+                == render 'layouts/header'
+                
+                == render 'layouts/nav_main'
+                
+                == render 'layouts/nav_categories'
+            
+            == yield
