@@ -7,11 +7,7 @@ div class="product"
     - else
     
         h4 == product.name
-        
-    p == link_to product.category.name, product.category
     
     == image_tag product.image.url(:thumb)
 
-    p == product.description
-    
     p == number_to_currency(product.price)
