@@ -1,13 +1,9 @@
-div class="product"
+div.product.col-lg-4
 
-    - if display_link_to_show
-
-        h4 == link_to product.name, product
+    h4 == link_to product.name, product
     
-    - else
-    
-        h4 == product.name
-    
-    == image_tag product.image.url(:thumb)
+    == image_tag product.image.url(:thumb), class: 'img-circle'
 
     p == number_to_currency(product.price)
+    
+    

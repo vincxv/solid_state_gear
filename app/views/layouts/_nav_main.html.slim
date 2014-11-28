@@ -1,4 +1,24 @@
-ul.nav_main
-    li == link_to 'Home' , root_path
-    li == link_to 'Contact' , contact_path
-    li == link_to 'About us' , about_path
+div.navbar-wrapper
+    div.container
+        nav.navbar.navbar-inverse.navbar-static-top
+            div.container
+                div.navbar-header
+                    button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"
+                        span.sr-only Toggle navigation
+                        span.icon-bar
+                        span.icon-bar
+                        span.icon-bar
+                        
+                div.navbar-collapse.collapse.in style="height: 0.8px;" aria-expanded="false" id="navbar"
+                    ul.nav.navbar-nav
+                        li == link_to 'Home' , root_path
+                        li == link_to 'Contact' , contact_path
+                        li == link_to 'About us' , about_path
+                        li.dropdown
+                            a.dropdown-toggle href="#" data-toggle="dropdown" role="button" aria-expanded="false"
+                                | Product Categories
+                                span.caret
+                            ul.dropdown-menu role="menu"
+                                - @categories.each do |category|
+                                    li == link_to category.name, category_path(category)
+
