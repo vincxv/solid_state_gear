@@ -1,3 +1,5 @@
-== render partial: @products, locals: { display_link_to_show: true }
+div.products
+    == render partial: @products, locals: { display_link_to_show: true }
 
-p.paginator == paginate @products
+div.paginatiion_div
+    == paginate @products

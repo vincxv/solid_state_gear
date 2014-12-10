@@ -80069,3 +80069,790 @@ Processing by CategoriesController#show as HTML
   Rendered layouts/_nav_main.html.slim (1.0ms)
   Rendered layouts/_footer.html.slim (0.0ms)
 Completed 200 OK in 170ms (Views: 168.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-09 21:47:47 -0600
+Processing by MainController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT  "products".* FROM "products"  LIMIT 3 OFFSET 0
+  Rendered products/_product.html.slim (4.5ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered main/index.html.slim within layouts/application (16.5ms)
+  Rendered layouts/_header.html.slim (0.5ms)
+  [1m[35mCategory Load (0.5ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_nav_main.html.slim (1.0ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 204ms (Views: 203.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-09 21:48:07 -0600
+Processing by MainController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT  "products".* FROM "products"  LIMIT 3 OFFSET 0[0m
+  Rendered products/_product.html.slim (4.5ms)
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "products"
+  Rendered main/index.html.slim within layouts/application (16.5ms)
+  Rendered layouts/_header.html.slim (0.0ms)
+  [1m[36mCategory Load (0.0ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_nav_main.html.slim (1.0ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 188ms (Views: 186.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-09 21:48:09 -0600
+Processing by MainController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT  "products".* FROM "products"  LIMIT 3 OFFSET 0
+  Rendered products/_product.html.slim (3.5ms)
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered main/index.html.slim within layouts/application (14.0ms)
+  Rendered layouts/_header.html.slim (0.5ms)
+  [1m[35mCategory Load (0.0ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_nav_main.html.slim (1.0ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 183ms (Views: 181.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-09 21:48:10 -0600
+Processing by MainController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  LIMIT 3 OFFSET 0[0m
+  Rendered products/_product.html.slim (4.0ms)
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "products"
+  Rendered main/index.html.slim within layouts/application (16.0ms)
+  Rendered layouts/_header.html.slim (0.0ms)
+  [1m[36mCategory Load (0.5ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_nav_main.html.slim (1.0ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 190ms (Views: 187.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/?page=2" for 127.0.0.1 at 2014-12-09 21:48:13 -0600
+Processing by MainController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT  "products".* FROM "products"  LIMIT 3 OFFSET 3
+  Rendered products/_product.html.slim (2.5ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered main/index.html.slim within layouts/application (50.0ms)
+  Rendered layouts/_header.html.slim (0.0ms)
+  [1m[35mCategory Load (0.5ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_nav_main.html.slim (1.0ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 218ms (Views: 216.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-09 21:48:16 -0600
+Processing by MainController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  LIMIT 3 OFFSET 0[0m
+  Rendered products/_product.html.slim (3.0ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "products"
+  Rendered main/index.html.slim within layouts/application (14.0ms)
+  Rendered layouts/_header.html.slim (0.0ms)
+  [1m[36mCategory Load (0.0ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_nav_main.html.slim (1.0ms)
+  Rendered layouts/_footer.html.slim (0.5ms)
+Completed 200 OK in 182ms (Views: 180.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-09 21:49:10 -0600
+Processing by MainController#index as HTML
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  LIMIT 3 OFFSET 0
+  Rendered products/_product.html.slim (4.5ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered main/index.html.slim within layouts/application (15.0ms)
+  Rendered layouts/_header.html.slim (0.0ms)
+  [1m[35mCategory Load (0.5ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_nav_main.html.slim (1.0ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 704ms (Views: 702.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-09 21:49:11 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-12-09 21:49:11 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-12-09 21:49:11 -0600
+
+
+Started GET "/assets/product.css?body=1" for 127.0.0.1 at 2014-12-09 21:49:11 -0600
+
+
+Started GET "/assets/product_controller.css?body=1" for 127.0.0.1 at 2014-12-09 21:49:11 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-09 21:49:11 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-09 21:49:11 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-09 21:49:11 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-09 21:49:11 -0600
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-12-09 21:49:11 -0600
+
+
+Started GET "/assets/product.js?body=1" for 127.0.0.1 at 2014-12-09 21:49:11 -0600
+
+
+Started GET "/assets/product_controller.js?body=1" for 127.0.0.1 at 2014-12-09 21:49:11 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-09 21:49:12 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-09 21:49:12 -0600
+
+
+Started GET "/assets/classy_fabric.png" for 127.0.0.1 at 2014-12-09 21:49:12 -0600
+
+
+Started GET "/?page=2" for 127.0.0.1 at 2014-12-09 21:49:14 -0600
+Processing by MainController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT  "products".* FROM "products"  LIMIT 3 OFFSET 3[0m
+  Rendered products/_product.html.slim (2.5ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "products"
+  Rendered main/index.html.slim within layouts/application (13.5ms)
+  Rendered layouts/_header.html.slim (0.0ms)
+  [1m[36mCategory Load (0.0ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_nav_main.html.slim (1.0ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 206ms (Views: 205.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?page=2" for 127.0.0.1 at 2014-12-09 21:49:15 -0600
+Processing by MainController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  LIMIT 3 OFFSET 3
+  Rendered products/_product.html.slim (4.0ms)
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered main/index.html.slim within layouts/application (15.5ms)
+  Rendered layouts/_header.html.slim (0.0ms)
+  [1m[35mCategory Load (0.0ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_nav_main.html.slim (1.5ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 190ms (Views: 187.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-09 21:49:16 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-12-09 21:49:16 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-12-09 21:49:16 -0600
+
+
+Started GET "/assets/product.css?body=1" for 127.0.0.1 at 2014-12-09 21:49:16 -0600
+
+
+Started GET "/assets/product_controller.css?body=1" for 127.0.0.1 at 2014-12-09 21:49:16 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-09 21:49:16 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-09 21:49:16 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-09 21:49:16 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-09 21:49:16 -0600
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-12-09 21:49:16 -0600
+
+
+Started GET "/assets/product.js?body=1" for 127.0.0.1 at 2014-12-09 21:49:16 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-09 21:49:16 -0600
+
+
+Started GET "/assets/product_controller.js?body=1" for 127.0.0.1 at 2014-12-09 21:49:16 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-09 21:49:16 -0600
+
+
+Started GET "/assets/classy_fabric.png" for 127.0.0.1 at 2014-12-09 21:49:16 -0600
+
+
+Started GET "/?page=2" for 127.0.0.1 at 2014-12-09 21:51:37 -0600
+Processing by MainController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT  "products".* FROM "products"  LIMIT 3 OFFSET 3[0m
+  Rendered products/_product.html.slim (3.5ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "products"
+  Rendered main/index.html.slim within layouts/application (17.0ms)
+  Rendered layouts/_header.html.slim (0.0ms)
+  [1m[36mCategory Load (0.5ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_nav_main.html.slim (1.0ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 187ms (Views: 186.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-12-09 21:51:38 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-12-09 21:51:38 -0600
+
+
+Started GET "/assets/product.css?body=1" for 127.0.0.1 at 2014-12-09 21:51:38 -0600
+
+
+Started GET "/assets/product_controller.css?body=1" for 127.0.0.1 at 2014-12-09 21:51:38 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-09 21:51:38 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-09 21:51:38 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:38 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:38 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:38 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:38 -0600
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:38 -0600
+
+
+Started GET "/assets/product.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:38 -0600
+
+
+Started GET "/assets/product_controller.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:38 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:38 -0600
+
+
+Started GET "/assets/classy_fabric.png" for 127.0.0.1 at 2014-12-09 21:51:38 -0600
+
+
+Started GET "/?page=2" for 127.0.0.1 at 2014-12-09 21:51:39 -0600
+Processing by MainController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT  "products".* FROM "products"  LIMIT 3 OFFSET 3
+  Rendered products/_product.html.slim (2.5ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered main/index.html.slim within layouts/application (13.0ms)
+  Rendered layouts/_header.html.slim (0.0ms)
+  [1m[35mCategory Load (0.0ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_nav_main.html.slim (1.0ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 186ms (Views: 185.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-09 21:51:39 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-12-09 21:51:39 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-12-09 21:51:39 -0600
+
+
+Started GET "/assets/product.css?body=1" for 127.0.0.1 at 2014-12-09 21:51:39 -0600
+
+
+Started GET "/assets/product_controller.css?body=1" for 127.0.0.1 at 2014-12-09 21:51:39 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:39 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:39 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:39 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:39 -0600
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:40 -0600
+
+
+Started GET "/assets/product.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:40 -0600
+
+
+Started GET "/assets/product_controller.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:40 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-09 21:51:40 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:40 -0600
+
+
+Started GET "/assets/classy_fabric.png" for 127.0.0.1 at 2014-12-09 21:51:40 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-09 21:51:43 -0600
+Processing by MainController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT  "products".* FROM "products"  LIMIT 3 OFFSET 0[0m
+  Rendered products/_product.html.slim (3.0ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "products"
+  Rendered main/index.html.slim within layouts/application (16.5ms)
+  Rendered layouts/_header.html.slim (0.0ms)
+  [1m[36mCategory Load (0.0ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_nav_main.html.slim (1.0ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 182ms (Views: 181.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-09 21:51:45 -0600
+Processing by MainController#index as HTML
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  LIMIT 3 OFFSET 0
+  Rendered products/_product.html.slim (3.5ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered main/index.html.slim within layouts/application (13.5ms)
+  Rendered layouts/_header.html.slim (0.5ms)
+  [1m[35mCategory Load (0.5ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_nav_main.html.slim (1.0ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 183ms (Views: 181.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-09 21:51:45 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-12-09 21:51:45 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-12-09 21:51:45 -0600
+
+
+Started GET "/assets/product.css?body=1" for 127.0.0.1 at 2014-12-09 21:51:45 -0600
+
+
+Started GET "/assets/product_controller.css?body=1" for 127.0.0.1 at 2014-12-09 21:51:45 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-09 21:51:45 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:45 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:45 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:45 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:45 -0600
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:45 -0600
+
+
+Started GET "/assets/product.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:45 -0600
+
+
+Started GET "/assets/product_controller.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:45 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-09 21:51:45 -0600
+
+
+Started GET "/assets/classy_fabric.png" for 127.0.0.1 at 2014-12-09 21:51:46 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-09 21:53:00 -0600
+Processing by MainController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT  "products".* FROM "products"  LIMIT 3 OFFSET 0[0m
+  Rendered products/_product.html.slim (4.0ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "products"
+  Rendered main/index.html.slim within layouts/application (17.0ms)
+  Rendered layouts/_header.html.slim (0.5ms)
+  [1m[36mCategory Load (0.5ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_nav_main.html.slim (1.0ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 649ms (Views: 647.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-09 21:53:00 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-12-09 21:53:01 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-12-09 21:53:01 -0600
+
+
+Started GET "/assets/product.css?body=1" for 127.0.0.1 at 2014-12-09 21:53:01 -0600
+
+
+Started GET "/assets/product_controller.css?body=1" for 127.0.0.1 at 2014-12-09 21:53:01 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-09 21:53:01 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-09 21:53:01 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-09 21:53:01 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-09 21:53:01 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-09 21:53:01 -0600
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-12-09 21:53:01 -0600
+
+
+Started GET "/assets/product.js?body=1" for 127.0.0.1 at 2014-12-09 21:53:01 -0600
+
+
+Started GET "/assets/product_controller.js?body=1" for 127.0.0.1 at 2014-12-09 21:53:01 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-09 21:53:01 -0600
+
+
+Started GET "/assets/classy_fabric.png" for 127.0.0.1 at 2014-12-09 21:53:01 -0600
+
+
+Started GET "/?page=2" for 127.0.0.1 at 2014-12-09 21:53:03 -0600
+Processing by MainController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  LIMIT 3 OFFSET 3
+  Rendered products/_product.html.slim (2.5ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered main/index.html.slim within layouts/application (15.0ms)
+  Rendered layouts/_header.html.slim (0.0ms)
+  [1m[35mCategory Load (0.5ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_nav_main.html.slim (1.5ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 180ms (Views: 178.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/?page=2" for 127.0.0.1 at 2014-12-09 21:54:03 -0600
+Processing by MainController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT  "products".* FROM "products"  LIMIT 3 OFFSET 3[0m
+  Rendered products/_product.html.slim (3.0ms)
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "products"
+  Rendered main/index.html.slim within layouts/application (18.0ms)
+  Rendered layouts/_header.html.slim (0.0ms)
+  [1m[36mCategory Load (0.0ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_nav_main.html.slim (1.0ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 188ms (Views: 186.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-09 21:54:04 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-12-09 21:54:04 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-12-09 21:54:04 -0600
+
+
+Started GET "/assets/product.css?body=1" for 127.0.0.1 at 2014-12-09 21:54:04 -0600
+
+
+Started GET "/assets/product_controller.css?body=1" for 127.0.0.1 at 2014-12-09 21:54:04 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-09 21:54:04 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-09 21:54:04 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-09 21:54:04 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-09 21:54:04 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-09 21:54:04 -0600
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-12-09 21:54:04 -0600
+
+
+Started GET "/assets/product.js?body=1" for 127.0.0.1 at 2014-12-09 21:54:04 -0600
+
+
+Started GET "/assets/product_controller.js?body=1" for 127.0.0.1 at 2014-12-09 21:54:04 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-09 21:54:04 -0600
+
+
+Started GET "/assets/classy_fabric.png" for 127.0.0.1 at 2014-12-09 21:54:04 -0600
+
+
+Started GET "/?page=2" for 127.0.0.1 at 2014-12-09 21:54:48 -0600
+Processing by MainController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT  "products".* FROM "products"  LIMIT 3 OFFSET 3
+  Rendered products/_product.html.slim (2.5ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered main/index.html.slim within layouts/application (43.5ms)
+  Rendered layouts/_header.html.slim (0.5ms)
+  [1m[35mCategory Load (0.5ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_nav_main.html.slim (1.0ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 651ms (Views: 649.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-12-09 21:54:48 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-12-09 21:54:49 -0600
+
+
+Started GET "/assets/product.css?body=1" for 127.0.0.1 at 2014-12-09 21:54:49 -0600
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-09 21:54:49 -0600
+
+
+Started GET "/assets/product_controller.css?body=1" for 127.0.0.1 at 2014-12-09 21:54:49 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-09 21:54:49 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-09 21:54:49 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-09 21:54:49 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-09 21:54:49 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-09 21:54:49 -0600
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-12-09 21:54:49 -0600
+
+
+Started GET "/assets/product.js?body=1" for 127.0.0.1 at 2014-12-09 21:54:49 -0600
+
+
+Started GET "/assets/product_controller.js?body=1" for 127.0.0.1 at 2014-12-09 21:54:49 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-09 21:54:49 -0600
+
+
+Started GET "/assets/classy_fabric.png" for 127.0.0.1 at 2014-12-09 21:54:49 -0600
+
+
+Started GET "/?page=2" for 127.0.0.1 at 2014-12-09 21:56:19 -0600
+Processing by MainController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  LIMIT 3 OFFSET 3[0m
+  Rendered products/_product.html.slim (4.0ms)
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "products"
+  Rendered main/index.html.slim within layouts/application (16.0ms)
+  Rendered layouts/_header.html.slim (0.5ms)
+  [1m[36mCategory Load (0.0ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_nav_main.html.slim (1.0ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 659ms (Views: 656.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-09 21:56:20 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-12-09 21:56:20 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-12-09 21:56:20 -0600
+
+
+Started GET "/assets/product.css?body=1" for 127.0.0.1 at 2014-12-09 21:56:20 -0600
+
+
+Started GET "/assets/product_controller.css?body=1" for 127.0.0.1 at 2014-12-09 21:56:20 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-09 21:56:20 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-09 21:56:20 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-09 21:56:20 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-09 21:56:20 -0600
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-12-09 21:56:20 -0600
+
+
+Started GET "/assets/product.js?body=1" for 127.0.0.1 at 2014-12-09 21:56:20 -0600
+
+
+Started GET "/assets/product_controller.js?body=1" for 127.0.0.1 at 2014-12-09 21:56:20 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-09 21:56:20 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-09 21:56:20 -0600
+
+
+Started GET "/assets/classy_fabric.png" for 127.0.0.1 at 2014-12-09 21:56:21 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-09 21:56:22 -0600
+Processing by MainController#index as HTML
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  LIMIT 3 OFFSET 0
+  Rendered products/_product.html.slim (3.0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered main/index.html.slim within layouts/application (16.0ms)
+  Rendered layouts/_header.html.slim (0.0ms)
+  [1m[35mCategory Load (0.0ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_nav_main.html.slim (1.0ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 179ms (Views: 178.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-09 21:57:30 -0600
+Processing by MainController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT  "products".* FROM "products"  LIMIT 3 OFFSET 0[0m
+  Rendered products/_product.html.slim (3.5ms)
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "products"
+  Rendered main/index.html.slim within layouts/application (14.5ms)
+  Rendered layouts/_header.html.slim (0.0ms)
+  [1m[36mCategory Load (0.5ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_nav_main.html.slim (2.0ms)
+  Rendered layouts/_footer.html.slim (0.5ms)
+Completed 200 OK in 756ms (Views: 754.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-09 21:57:30 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-12-09 21:57:30 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-12-09 21:57:31 -0600
+
+
+Started GET "/assets/product.css?body=1" for 127.0.0.1 at 2014-12-09 21:57:31 -0600
+
+
+Started GET "/assets/product_controller.css?body=1" for 127.0.0.1 at 2014-12-09 21:57:31 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-09 21:57:31 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-09 21:57:31 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-09 21:57:31 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-09 21:57:31 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-09 21:57:31 -0600
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2014-12-09 21:57:31 -0600
+
+
+Started GET "/assets/product.js?body=1" for 127.0.0.1 at 2014-12-09 21:57:31 -0600
+
+
+Started GET "/assets/product_controller.js?body=1" for 127.0.0.1 at 2014-12-09 21:57:31 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-09 21:57:31 -0600
+
+
+Started GET "/assets/classy_fabric.png" for 127.0.0.1 at 2014-12-09 21:57:31 -0600
+
+
+Started GET "/?page=2" for 127.0.0.1 at 2014-12-09 21:57:33 -0600
+Processing by MainController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  LIMIT 3 OFFSET 3
+  Rendered products/_product.html.slim (2.0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered main/index.html.slim within layouts/application (38.0ms)
+  Rendered layouts/_header.html.slim (0.0ms)
+  [1m[35mCategory Load (0.5ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_nav_main.html.slim (1.5ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 177ms (Views: 175.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-09 21:57:35 -0600
+Processing by MainController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  LIMIT 3 OFFSET 0[0m
+  Rendered products/_product.html.slim (3.5ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "products"
+  Rendered main/index.html.slim within layouts/application (13.5ms)
+  Rendered layouts/_header.html.slim (0.0ms)
+  [1m[36mCategory Load (0.0ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_nav_main.html.slim (1.0ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 177ms (Views: 175.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/?page=2" for 127.0.0.1 at 2014-12-09 21:58:43 -0600
+Processing by MainController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35mProduct Load (0.5ms)[0m  SELECT  "products".* FROM "products"  LIMIT 3 OFFSET 3
+  Rendered products/_product.html.slim (2.5ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered main/index.html.slim within layouts/application (13.5ms)
+  Rendered layouts/_header.html.slim (0.5ms)
+  [1m[35mCategory Load (0.0ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_nav_main.html.slim (1.0ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 179ms (Views: 177.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-09 21:58:45 -0600
+Processing by MainController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  "products".* FROM "products"  LIMIT 3 OFFSET 0[0m
+  Rendered products/_product.html.slim (3.5ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "products"
+  Rendered main/index.html.slim within layouts/application (14.0ms)
+  Rendered layouts/_header.html.slim (0.0ms)
+  [1m[36mCategory Load (0.0ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_nav_main.html.slim (1.0ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 179ms (Views: 178.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/?page=2" for 127.0.0.1 at 2014-12-09 21:58:46 -0600
+Processing by MainController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35mProduct Load (0.0ms)[0m  SELECT  "products".* FROM "products"  LIMIT 3 OFFSET 3
+  Rendered products/_product.html.slim (2.5ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Rendered main/index.html.slim within layouts/application (13.0ms)
+  Rendered layouts/_header.html.slim (0.5ms)
+  [1m[35mCategory Load (0.0ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered layouts/_nav_main.html.slim (1.0ms)
+  Rendered layouts/_footer.html.slim (0.0ms)
+Completed 200 OK in 180ms (Views: 179.1ms | ActiveRecord: 0.0ms)
