@@ -5,8 +5,8 @@ Rails.application.routes.draw do
   
   root to: 'main#index'
   
-  get 'contact' => 'contact#index', as: 'contact'
-  get 'about' => 'about#index', as: 'about'
+  get 'contact' => 'pages#contact', as: 'contact'
+  get 'about' => 'pages#about', as: 'about'
 
   get 'products' => 'products#index', as: 'products'
   get 'products/:id' => 'products#show', as: 'product'
