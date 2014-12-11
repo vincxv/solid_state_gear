@@ -14,5 +14,4 @@ ActiveAdmin.register Page do
   #   permitted
   # end
 
-
 end

@@ -1,0 +1,16 @@
+div.navbar-wrapper
+    div.container
+        nav.navbar.navbar-inverse.navbar-static-top
+            div.container
+                div.navbar-header
+                    button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar-user"
+                        span.sr-only Toggle navigation
+                        span.icon-bar
+                        span.icon-bar
+                        span.icon-bar
+                        
+                nav.navbar-collapse.collapse.in aria-expanded="false" id="navbar-user"
+                    ul.nav.navbar-nav.col-md-12
+                        li == link_to 'Guest'
+                        li == link_to 'Profile'
+                        li == link_to 'Product Cart', item_cart_path

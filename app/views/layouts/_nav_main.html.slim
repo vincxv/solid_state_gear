@@ -3,14 +3,14 @@ div.navbar-wrapper
         nav.navbar.navbar-inverse.navbar-static-top
             div.container
                 div.navbar-header
-                    button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"
+                    button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar-main"
                         span.sr-only Toggle navigation
                         span.icon-bar
                         span.icon-bar
                         span.icon-bar
                         
-                div.navbar-collapse.collapse.in style="height: 0.8px;" aria-expanded="false" id="navbar" roll="navigation"
-                    ul.nav.navbar-nav
+                nav.navbar-collapse.collapse.in aria-expanded="false" id="navbar-main"
+                    ul.nav.navbar-nav.col-md-12
                         li == link_to 'Home' , root_path
                         li == link_to 'Contact' , contact_path
                         li == link_to 'About us' , about_path
@@ -21,4 +21,13 @@ div.navbar-wrapper
                             ul.dropdown-menu role="menu"
                                 - @categories.each do |category|
                                     li == link_to category.name, category_path(category)
+                        li.search-bar
+                            = form_tag search_results_path, class: "navbar-form navbar-right", method: :get do
+                                div class="form-group input-group"
+                                    span class="input-group-inline"
+                                        = text_field_tag :keyword_search, nil, placeholder: "Search", class: "form-control"
+                                        = select_tag 'category', options_from_collection_for_select(@categories,'id','name'), prompt: 'Search By Category', class: "form-control"
+                                        span class="input-group-btn"
+                                            = submit_tag "Search", class: "btn btn-inverted search-button"
+                                            
 

@@ -5,3 +5,5 @@ div.product.col-lg-4
     == image_tag product.image.url(:thumb), class: 'img-circle'
 
     p == number_to_currency(product.price)
+    
+    == button_to "Add to Cart", add_item_cart_path(product) , method: :post

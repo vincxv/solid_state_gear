@@ -13,4 +13,13 @@ Rails.application.routes.draw do
   
   get 'categories' => 'categories#index', as: 'categories'
   get 'categories/:id' => 'categories#show', as: 'category'
+  
+  get 'search' => 'products#search_results', as: 'search_results'
+  
+  post 'add_item_cart/:id' => 'products#add_item_cart', as: 'add_item_cart'
+  
+  get 'item_cart' => 'products#item_cart', as: 'item_cart'
+  
+  get 'featured' => 'main#featured', as: 'featured'
+  get 'new' => 'main#new', as: 'new'
 end

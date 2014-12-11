@@ -10,14 +10,15 @@ html
         
     body.container
         
-        div.container
-        
-            header
-        
-                == render 'layouts/header'
-                
+        header
+            div.container
+                == render 'layouts/nav_user'
+    
+            == render 'layouts/carousel'
+            
+            div.container
                 == render 'layouts/nav_main'
-            
-            == yield
-            
+        
+        == yield
+        
         == render 'layouts/footer'

@@ -1,0 +1,7 @@
+h4 Product Cart
+
+div.container
+    div.products
+        -if session[:cart]
+            - session[:cart].each do |id|
+                == render Product.find(id), locals: { display_link_to_show: true }
